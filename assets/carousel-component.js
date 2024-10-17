@@ -87,6 +87,8 @@ if(!customElements.get('carousel-component')) {
           currentBanner.appendChild(transitionHelperWrapper);
           transitionHelperWrapper.dataset.childrenWidth = childrenWidth;
           
+          transitionHelperWrapper.scrollLeft = this.savedValue;
+          
           this.querySelectorAll('a[href]').forEach((link) => {
             link.addEventListener('click', (e) => {
               if (this.mouseDown || this.isDragScrolling) {
@@ -94,7 +96,7 @@ if(!customElements.get('carousel-component')) {
               }
             });
           });
-          
+
           this.scrollStep = this.matchMedia.matches ? this.loopSpeed : this.loopSpeedMobile;
           this.runAnimationFrame(transitionHelperWrapper);
           this.setUpMouseControls(transitionHelperWrapper);
@@ -212,14 +214,12 @@ if(!customElements.get('carousel-component')) {
             this.isScrolling = true;
 
             if(!this.isDragScrolling) {
-              if(helperWrapper.scrollLeft !== 0) {
-                if(helperWrapper.scrollLeft > this.currentWidth) {
-                  const currentStartPosition = helperWrapper.scrollLeft - this.currentWidth;
-                  helperWrapper.scrollLeft = this.savedValue + currentStartPosition;
-                } else if (helperWrapper.scrollLeft < this.savedValue) {
-                  const currentEndPosition = this.savedValue - helperWrapper.scrollLeft;
-                  helperWrapper.scrollLeft = this.currentWidth - currentEndPosition;
-                }
+              if(helperWrapper.scrollLeft > this.currentWidth) {
+                const currentStartPosition = helperWrapper.scrollLeft - this.currentWidth;
+                helperWrapper.scrollLeft = this.savedValue + currentStartPosition;
+              } else if (helperWrapper.scrollLeft < this.savedValue) {
+                const currentEndPosition = this.savedValue - helperWrapper.scrollLeft;
+                helperWrapper.scrollLeft = this.currentWidth - currentEndPosition;
               }
 
               this.scrollToPosition(helperWrapper, this.scrollStep);
