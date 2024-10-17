@@ -67,17 +67,20 @@
             "subtext": "<p>Montreal | Toronto | Vancouver<br/><a href=\"tel:+18666447836\" target=\"_blank\" title=\"Call Us\">1.866.844.STEM</a><br/><a href=\"mailto:info@stemcommerce.com\" target=\"_blank\" title=\"Email Us\">info@stemcommerce.com</a></p>"
           }
         },
-        "text_Mr3c7F": {
-          "type": "text",
+        "link_list_a7A3yC": {
+          "type": "link_list",
           "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
+            "heading": "",
+            "enable_social_follow": true,
+            "social_follow_label": "Follow us on",
+            "color_follow": "#00BC84",
+            "menu": "footer"
           }
         }
       },
       "block_order": [
         "image_DN9CXg",
-        "text_Mr3c7F"
+        "link_list_a7A3yC"
       ],
       "settings": {
         "color_scheme": "scheme-1",
