@@ -29,11 +29,6 @@
   endcase
 -%}
 
-<div class="center">
-  <span id="startPosition"></span>
-  <span id="startAnimationPosition"></span>
-</div>
-
 <div class="multicolumn--carousel color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding isolate">
   <div class="carousel--title {{ page_width_title_class }} rich-text">
     <div class="{% if section.settings.title_full_width == 'none' %} page-width-none{% endif %}">
@@ -66,6 +61,10 @@
             data-loop-speed-mobile="{{ section.settings.infinite_loop_speed_mobile }}"
             data-dragging="false"
           >
+            <div class="center">
+              <span id="startPosition"></span>
+              <span id="startAnimationPosition"></span>
+            </div>
             <div
               id="Swiper-{{ section.id }}"
               class="swiper-carousel{% if section.settings.infinite_loop %} swiper-container-free-mode{% endif %}"
