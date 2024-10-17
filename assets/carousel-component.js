@@ -101,7 +101,7 @@ if(!customElements.get('carousel-component')) {
           transitionHelperWrapper.scrollLeft = this.savedValue;
 
           if(this.querySelector('#startAnimationPosition')) {
-            this.querySelector('#startAnimationPosition').innerHTML = window.devicepixelratio;
+            this.querySelector('#startAnimationPosition').innerHTML = window.devicePixelRatio;
           }
           
           this.querySelectorAll('a[href]').forEach((link) => {
