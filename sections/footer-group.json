@@ -41,7 +41,7 @@
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "full_width": "device",
         "full_width_heading": "device-space",
         "form_padding_right": 0,
@@ -73,7 +73,7 @@
             "heading": "",
             "enable_social_follow": true,
             "social_follow_label": "Follow us on",
-            "color_follow": "#00BC84",
+            "color_follow": "#00bc84",
             "menu": "footer"
           }
         }
