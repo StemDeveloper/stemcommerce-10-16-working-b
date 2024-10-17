@@ -87,6 +87,8 @@ if(!customElements.get('carousel-component')) {
           currentBanner.appendChild(transitionHelperWrapper);
           transitionHelperWrapper.dataset.childrenWidth = childrenWidth;
           
+          transitionHelperWrapper.scrollLeft = this.savedValue;
+          
           this.querySelectorAll('a[href]').forEach((link) => {
             link.addEventListener('click', (e) => {
               if (this.mouseDown || this.isDragScrolling) {
