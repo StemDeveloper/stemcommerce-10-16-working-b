@@ -99,10 +99,6 @@ if(!customElements.get('carousel-component')) {
           }
           
           transitionHelperWrapper.scrollLeft = this.savedValue;
-
-          if(this.querySelector('#startAnimationPosition')) {
-            this.querySelector('#startAnimationPosition').innerHTML = transitionHelperWrapper.scrollLeft;
-          }
           
           this.querySelectorAll('a[href]').forEach((link) => {
             link.addEventListener('click', (e) => {
