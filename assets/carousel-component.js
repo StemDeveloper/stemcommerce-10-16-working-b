@@ -214,15 +214,12 @@ if(!customElements.get('carousel-component')) {
             this.isScrolling = true;
 
             if(!this.isDragScrolling) {
-              if(helperWrapper.scrollLeft !== 0) {
-                console.log(helperWrapper.scrollLeft);
-                if(helperWrapper.scrollLeft > this.currentWidth) {
-                  const currentStartPosition = helperWrapper.scrollLeft - this.currentWidth;
-                  helperWrapper.scrollLeft = this.savedValue + currentStartPosition;
-                } else if (helperWrapper.scrollLeft < this.savedValue) {
-                  const currentEndPosition = this.savedValue - helperWrapper.scrollLeft;
-                  helperWrapper.scrollLeft = this.currentWidth - currentEndPosition;
-                }
+              if(helperWrapper.scrollLeft > this.currentWidth) {
+                const currentStartPosition = helperWrapper.scrollLeft - this.currentWidth;
+                helperWrapper.scrollLeft = this.savedValue + currentStartPosition;
+              } else if (helperWrapper.scrollLeft < this.savedValue) {
+                const currentEndPosition = this.savedValue - helperWrapper.scrollLeft;
+                helperWrapper.scrollLeft = this.currentWidth - currentEndPosition;
               }
 
               this.scrollToPosition(helperWrapper, this.scrollStep);
