@@ -223,9 +223,9 @@ if(!customElements.get('carousel-component')) {
                   const currentEndPosition = this.savedValue - helperWrapper.scrollLeft;
                   helperWrapper.scrollLeft = this.currentWidth - currentEndPosition;
                 }
-              }
 
-              this.scrollToPosition(helperWrapper, this.scrollStep);
+                this.scrollToPosition(helperWrapper, this.scrollStep);
+              }
             }
 
             requestAnimationFrame(scrollAnimate);
