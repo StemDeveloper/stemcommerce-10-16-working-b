@@ -29,6 +29,13 @@ if(!customElements.get('carousel-component')) {
         window.addEventListener('resize', () => this.setUpElements());
       }
 
+      scrollToPosition(helperWrapper, step) {
+        helperWrapper.scrollTo({
+          left: helperWrapper.scrollLeft + step,
+          behavior: 'auto'
+        });
+      }
+
       setUpElements() {
         if (/iPad|iPhone|iPod/.test(navigator.userAgent)) this.iosDevice = true;
         if(navigator.platform === 'iPad' || navigator.platform === 'iPhone' || navigator.platform === 'iPod') this.iosDevice = true;
@@ -240,13 +247,6 @@ if(!customElements.get('carousel-component')) {
     
         helperWrapper.scrollLeft = this.savedValue;
         scrollAnimate();
-      }
-
-      async scrollToPosition(helperWrapper, step) {
-        helperWrapper.scrollTo({
-          left: helperWrapper.scrollLeft + step,
-          behavior: 'auto'
-        });
       }
     }
   )
