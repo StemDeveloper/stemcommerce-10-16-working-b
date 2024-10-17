@@ -229,6 +229,9 @@ if(!customElements.get('carousel-component')) {
             this.isScrolling = true;
 
             if(!this.isDragScrolling) {
+              if(this.querySelector('#animationScrollPosition')) {
+                this.querySelector('#animationScrollPosition').innerHTML = helperWrapper.scrollLeft;
+              }
               if(helperWrapper.scrollLeft > this.currentWidth) {
                 const currentStartPosition = helperWrapper.scrollLeft - this.currentWidth;
                 helperWrapper.scrollLeft = this.savedValue + currentStartPosition;
