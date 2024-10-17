@@ -39,11 +39,11 @@
         "email_form_6w8WqJ"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "",
-        "full_width": "none",
-        "full_width_heading": "none",
+        "full_width": "device",
+        "full_width_heading": "device-space",
         "form_padding_right": 0,
         "form_padding_right_tablet": 120,
         "form_padding_right_mobile": 18,
