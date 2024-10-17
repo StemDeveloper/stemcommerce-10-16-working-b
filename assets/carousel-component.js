@@ -86,6 +86,10 @@ if(!customElements.get('carousel-component')) {
           }
           currentBanner.appendChild(transitionHelperWrapper);
           transitionHelperWrapper.dataset.childrenWidth = childrenWidth;
+
+          if(this.querySelector('#startPosition')) {
+            this.querySelector('#startPosition').innerHTML = transitionHelperWrapper.scrollLeft;
+          }
           
           transitionHelperWrapper.scrollLeft = this.savedValue;
           
