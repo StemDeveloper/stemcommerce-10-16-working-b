@@ -91,7 +91,7 @@
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": false,
-        "enable_footer_credits": true,
+        "enable_footer_credits": false,
         "footer_credits": "©2024 Stem Commerce Inc. All Rights Reserved.",
         "show_policy": false,
         "margin_top": 200,
