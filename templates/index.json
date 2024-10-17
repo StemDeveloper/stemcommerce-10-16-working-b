@@ -12,15 +12,15 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "image_JiR9Ax": {
+        "image_WDMBe3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Stem-Commerce.png"
+            "image": "shopify://shop_images/Stem-Commerce-Logo-2021.png"
           }
         }
       },
       "block_order": [
-        "image_JiR9Ax"
+        "image_WDMBe3"
       ],
       "settings": {
         "hero_arrow": true,
@@ -35,9 +35,905 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "rich_text_9BnG6a": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RrGAzx": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Your Expert<br><span>Shopify</span> Partner.</strong>",
+            "heading_size": "h10xl",
+            "secondary_color": "#009b72",
+            "shrink_animate": true,
+            "color_animate": true,
+            "blur_heading": false,
+            "blur_strength": 3
+          }
+        },
+        "text_Fj6TtJ": {
+          "type": "text",
+          "settings": {
+            "animate_circle": true,
+            "text": "<h2><strong>Fast and Fail-Proof Execution.</strong></h2><h2><strong>We thread the needle of good design, purposeful content and performance focus through all touchpoints of digital marketing.</strong></h2>",
+            "color_scheme": "scheme-3",
+            "icon_text_below": false,
+            "icon_description_1": "",
+            "icon_description_2": "",
+            "icon_description_3": "",
+            "icon_description_4": "",
+            "icon_description_5": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_RrGAzx",
+        "text_Fj6TtJ"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "hero_arrow": true,
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 56,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "carousel_eyWXRG": {
+      "type": "swiper-carousel",
+      "blocks": {
+        "column_9NtyRt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Endy.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UHfPjc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Kraft-Heinz.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_84p7LX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Ring.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_enGQ79": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Sparx.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_h7QQDa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Transformer-Table.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_H9RqBU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Kruger.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mgkmdn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Invisalign_4fbdb3d7-76d3-4896-9c32-106a0c181bd4.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3xEckx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Safe-Direct-Medical-Supplies.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aCDxbV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Nobis.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9GEABw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-OurKindra.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NyF87t": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Xpand.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eHTPHC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-LaMarque.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Aqn6mb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-HairClub.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TQC6G4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-HidrateSpark.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cHDPaf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Aigle_cb92a9c2-69da-4ff1-a90f-812cc542822e.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6wNJrR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Retyche.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hBhdeL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Surplus-Brands_fc5a8fad-3e2b-4e4c-a3ee-70f130bdba98.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8yiA6z": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Scouts-Canada.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8Jbj6g": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Terramar-Sports.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rmUAdk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Noel-Asmar.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nhrUn4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-FanInk.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bKtV8g": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Equator-Coffee.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Ndchrt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Huitres-en-Mouvement.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zMMcAi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Noize.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DqJarM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Pellatt-Cornucopia.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Lj4tFn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Sydney-Hale.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_D6Cy9J": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-DataCandy.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8APgpm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Moog-Audio.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_y8MiRL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Montelle-Intimates.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VKTJtp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Teangle.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Kg3CxF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-ChewPod.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iJFMBt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Chetwyn-Gusti.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CwT6yN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Milele-Animal-Health.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zmKJ68": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Noel-Asmar_0ef8071e-d78a-4924-b6a3-c4aba115e04e.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BhHtre": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Nova.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TRD8AE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Momzelle.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Vbx7Gd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Little-Life-Box.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NMEhG4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Kyodan_9171d98e-7c2e-4f18-95b7-cbb566812a3e.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3gwC8N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Leons.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nYiCXA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Kusshi.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QfwNfP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Henkaa.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hD8P3C": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-iCloth.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wpeV9R": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Air-Filtration_e8b09b7b-0f54-4353-889d-ff1f71132bf7.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UnjANR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Alton-Gray_1068e784-5ad6-4cf6-87cd-0917c0502e8b.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RMTQUi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Chetwyn-Farms.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MNqpQz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stem-Commerce-Collaborations-Just-Vertical.jpg",
+            "image_link": "",
+            "link_open_new": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9NtyRt",
+        "column_UHfPjc",
+        "column_84p7LX",
+        "column_enGQ79",
+        "column_h7QQDa",
+        "column_H9RqBU",
+        "column_mgkmdn",
+        "column_3xEckx",
+        "column_aCDxbV",
+        "column_9GEABw",
+        "column_NyF87t",
+        "column_eHTPHC",
+        "column_Aqn6mb",
+        "column_TQC6G4",
+        "column_cHDPaf",
+        "column_6wNJrR",
+        "column_hBhdeL",
+        "column_8yiA6z",
+        "column_8Jbj6g",
+        "column_rmUAdk",
+        "column_nhrUn4",
+        "column_bKtV8g",
+        "column_Ndchrt",
+        "column_zMMcAi",
+        "column_DqJarM",
+        "column_Lj4tFn",
+        "column_D6Cy9J",
+        "column_8APgpm",
+        "column_y8MiRL",
+        "column_VKTJtp",
+        "column_Kg3CxF",
+        "column_iJFMBt",
+        "column_CwT6yN",
+        "column_zmKJ68",
+        "column_BhHtre",
+        "column_TRD8AE",
+        "column_Vbx7Gd",
+        "column_NMEhG4",
+        "column_3gwC8N",
+        "column_nYiCXA",
+        "column_QfwNfP",
+        "column_hD8P3C",
+        "column_wpeV9R",
+        "column_UnjANR",
+        "column_RMTQUi",
+        "column_MNqpQz"
+      ],
+      "settings": {
+        "title": "<strong>Some of the 500+ great brands we have worked with</strong>",
+        "title_full_width": "device",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "columns_desktop": 6,
+        "columns_tablet": 4,
+        "full_width": "device",
+        "infinite_loop": true,
+        "infinite_loop_speed": "3",
+        "infinite_loop_speed_mobile": "3",
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-837da333-4ae4-4495-8fbf-02d804c2e4ef",
+        "columns_mobile": 2,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "multicard_T7NqXb": {
+      "type": "multicard",
+      "blocks": {
+        "column_HbpcBj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Ny3Kb9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/green-and-white-marbled-coloring.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jM48Bp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/two-people-surfing-in-blue-choppy-water.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ybYhTq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/mens-fashion-man-in-shirt-and-jeans-leaning-on-bicycle.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_q7RUpq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/model-laughs-barefoot.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HTQyNe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/person-writing-in-notebook-beside-laptop-working-from-bed.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_HbpcBj",
+        "column_Ny3Kb9",
+        "column_jM48Bp",
+        "column_ybYhTq",
+        "column_q7RUpq",
+        "column_HTQyNe"
+      ],
+      "settings": {
+        "sticky_multicard": false,
+        "title": "<strong>Our clients are forward-thinking and content focused. They are design-driven. Disruptive within their spaces. They are rebels. Risk-takers. Purposeful, timeless, thoughtful. Our clients are ready to do what it takes to grow their business.</strong>",
+        "heading_size": "h0",
+        "secondary_color": "#00bc8f",
+        "sticky_title": true,
+        "blur_heading": true,
+        "blur_strength": 7,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "swiper_carousel_jgwiEi": {
+      "type": "swiper-carousel",
+      "blocks": {
+        "column_GVwBAC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CTV-News.jpg",
+            "image_link": "https://www.ctvnews.ca/business/sleep-country-buys-endy-for-88-7-million-but-the-two-will-operate-separately-1.4199308?cache=%3FclipId%3D89680",
+            "link_open_new": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jWfPQr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Financial-Post.jpg",
+            "image_link": "https://financialpost.com/entrepreneur/from-the-bedroom-to-the-kitchen-endy-founder-relying-on-old-lessons-to-launch-new-venture-during-pandemic",
+            "link_open_new": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JRRWBa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Hypebeast.jpg",
+            "image_link": "https://hypebeast.com/2020/11/nobis-serge-ibaka-capsule-collaboration-release",
+            "link_open_new": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NtxJAB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/The-Globe-_-Mail.jpg",
+            "image_link": "https://www.theglobeandmail.com/business/article-dragon-to-the-rescue-michele-romanow-and-partner-launch-new-venture/",
+            "link_open_new": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eCjGRi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sportsnet.jpg",
+            "image_link": "https://www.sportsnet.ca/hockey/nhl/hockey-world-united-collective-mission-equip-front-line-personnel/",
+            "link_open_new": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dcHNHc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/TheNewYorkTimes.jpg",
+            "image_link": "https://www.nytimes.com/2018/02/27/business/dealbook/amazon-buys-ring.html",
+            "link_open_new": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9qkzDj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/GQ.jpg",
+            "image_link": "https://www.gq.com/gallery/latest-gq-best-stuff-box-summer",
+            "link_open_new": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_H9EQi9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bustle.jpg",
+            "image_link": "https://www.bustle.com/wellness/kindra-menopause-quiz",
+            "link_open_new": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GVwBAC",
+        "column_jWfPQr",
+        "column_JRRWBa",
+        "column_NtxJAB",
+        "column_eCjGRi",
+        "column_dcHNHc",
+        "column_9qkzDj",
+        "column_H9EQi9"
+      ],
+      "settings": {
+        "title": "<strong>Client Success Spotlights</strong>",
+        "title_full_width": "device",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "columns_desktop": 6,
+        "columns_tablet": 4,
+        "full_width": "device",
+        "infinite_loop": true,
+        "infinite_loop_speed": "2",
+        "infinite_loop_speed_mobile": "2",
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-837da333-4ae4-4495-8fbf-02d804c2e4ef",
+        "columns_mobile": 2,
+        "padding_top": 48,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "image_banner"
+    "image_banner",
+    "rich_text_9BnG6a",
+    "carousel_eyWXRG",
+    "multicard_T7NqXb",
+    "swiper_carousel_jgwiEi"
   ]
 }
