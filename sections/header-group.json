@@ -48,7 +48,7 @@
         "nav_position_desktop": "right",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
-        "enable_search": false,
+        "enable_search": true,
         "desktop_background_logo_nav": false,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
